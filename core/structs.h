@@ -18,3 +18,9 @@ struct VectorColor {
 	int g;
 	int b;
 };
+
+struct GameObject {
+	VectorPosition position;
+	VectorSize size;
+	VectorColor color;
+};
