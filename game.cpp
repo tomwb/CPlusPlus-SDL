@@ -4,26 +4,28 @@
 
 #include <SDL2/SDL.h>
 #include "core/engine.h"
+#include "Assets/Objects/square.h"
 
 class Game: public Engine {
 	public:
 
-		GameObject retangulo;
+		// GameObject retangulo;
+		Square retangulo;
 		
 		/*
 		 * metodo que incializa o jogo
 		 */
 		void Start () {
-			retangulo.size = {100,100};
-			retangulo.position = {350,250};
-			retangulo.color = {255,255,0};
+			// retangulo.size = {100,100};
+			// retangulo.position = {350,250};
+			// retangulo.color = {0,0,255};
 		}
 
 		/*
 		 * metodo que itera entre o jogo
 		 */
 		void Update () {
-			// ObjRectRenderer(color,position,size);
+			// ObjRectRenderer(retangulo);
 		}
 };
 
